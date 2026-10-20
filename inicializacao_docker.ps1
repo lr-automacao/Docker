@@ -11,7 +11,7 @@ $VersaoScript = "2.5.3"
 $Data = Get-Date -Format "dd-MM-yyyy"
 $Diretorio = "C:\Zanthus\Zeus\Docker\Script\Logs"
 $ArqLog = Join-Path $Diretorio "$Data.txt"
-$MaxLog = 30
+$MaxLog = 20
 
 # CRIA A PASTA DE LOGS CASO NAO EXISTA
 if (!(Test-Path $Diretorio)) {
