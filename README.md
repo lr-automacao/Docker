@@ -12,16 +12,16 @@ inicializacao/ — Script para iniciar o Docker Zanthus.
 
 
 📁 Estrutura de pastas e arquivos
-text
+
 Docker/
-├── Install/
-│   ├── instalar.sh
-│   └── dependencias/
-│       └── instalar_dependencias.sh
-├── configuracao/
-│   └── docker-compose.yml
-├── iniciar.sh
-└── README.md
+|-- Install/
+|   |-- instalar.sh
+|   `-- dependencias/
+|       `-- instalar_dependencias.sh
+|-- configuracao/
+|   `-- docker-compose.yml
+|-- iniciar.sh
+`-- README.md
 
 Descrição das pastas e arquivos
 Install/: contém os arquivos relacionados à instalação.
