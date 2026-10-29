@@ -12,7 +12,7 @@ inicializacao/ — Script para iniciar o Docker Zanthus.
 
 
 📁 Estrutura de pastas e arquivos
-
+text
 Docker/
 ├── Install/
 │   ├── instalar.sh
@@ -23,13 +23,12 @@ Docker/
 ├── iniciar.sh
 └── README.md
 
-Descrição dos diretórios e arquivos
-instalacao/: armazena os arquivos utilizados no processo de instalação do Docker Zanthus.
-instalar.sh: script responsável por executar as etapas de instalação definidas para o ambiente.
-dependencias/: reúne arquivos relacionados à instalação de dependências necessárias.
-instalar_dependencias.sh: script destinado à instalação das dependências do ambiente.
-configuracao/: reúne os arquivos de configuração utilizados pelo Docker.
-docker-compose.yml: define os serviços, as configurações e os recursos necessários para executar os containers.
-inicializacao/: armazena os scripts utilizados para iniciar o ambiente.
-iniciar.sh: script responsável por executar os comandos necessários para iniciar os serviços.
-README.md: contém a documentação do repositório, incluindo sua descrição, objetivo e estrutura.
+Descrição das pastas e arquivos
+Install/: contém os arquivos relacionados à instalação.
+instalar.sh: script de instalação do ambiente.
+dependencias/: reúne os arquivos para instalação das dependências.
+instalar_dependencias.sh: script de instalação das dependências.
+configuracao/: armazena os arquivos de configuração do Docker.
+docker-compose.yml: define os serviços e as configurações dos containers.
+iniciar.sh: script utilizado para iniciar o ambiente.
+README.md: documentação do repositório.
