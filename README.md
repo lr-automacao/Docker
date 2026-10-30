@@ -11,6 +11,7 @@ Facilitar a instalação e a inicialização do ambiente, permitindo que os arqu
     Docker/
     ├── Install/
     │   ├── instalar.sh
+    │   │
     │   └── dependencias/
     │       └── instalar_dependencias.sh
     ├── configuracao/
