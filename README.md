@@ -10,10 +10,13 @@ Facilitar a instalação e a inicialização do ambiente, permitindo que os arqu
 
     Docker/
     ├── Install/
-    │   ├── instalar.sh
-    │   │
-    │   └── dependencias/
-    │       └── instalar_dependencias.sh
+    │   ├── docker_mirage/
+    │   │   ├── docker-compose.yml
+    │   │   └── exemplo_docker-compose.yml
+    │   ├── docker_redis/
+    │   │    ├── docker-compose.yml
+    │   │    └── exemplo_docker-compose.yml
+    │   └── ZMWSInfo.ini
     ├── configuracao/
     │   └── docker-compose.yml
     ├── iniciar.sh
