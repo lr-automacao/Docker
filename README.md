@@ -17,9 +17,7 @@ Facilitar a instalação e a inicialização do ambiente, permitindo que os arqu
     │   │    ├── docker-compose.yml
     │   │    └── exemplo_docker-compose.yml
     │   └── ZMWSInfo.ini
-    ├── configuracao/
-    │   └── docker-compose.yml
-    ├── iniciar.sh
+    ├── inicializar_docker.ps1
     └── README.md
 
 ## 📝 Descrição dos arquivos e pastas
